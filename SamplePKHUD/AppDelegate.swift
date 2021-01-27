@@ -5,6 +5,7 @@
 //  Created by 鶴本賢太朗 on 2021/01/27.
 //
 
+import PKHUD
 import UIKit
 
 @main
@@ -14,6 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+//        PKHUD.sharedHUD.show(.)
+        
+//        PKHUD.sharedHUD.contentView.backgroundColor = .clear
+
+//        PKHUD.sharedHUD.effect = nil
+//        if let frameView = PKHUD.sharedHUD.contentView.superview?.superview as? UIVisualEffectView {
+//            frameView.backgroundColor = .clear
+//        }
+        
         return true
     }
 
